@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Montserrat-Alternates-Light';
+    src:
+        url('Montserrat-Alternates-Light.ttf.svg#Montserrat-Alternates-Light') format('svg'),
+        url('Montserrat-Alternates-Light.ttf.eot'),
+        url('Montserrat-Alternates-Light.ttf.eot?#iefix') format('embedded-opentype'); 
+    
+}
+
+.modi-font {
+    font-family: 'Montserrat-Alternates-Light';
+    font-size: 1.3em !important;
+}
+
+.color-nav {
+    background-color: rgb(168, 51, 56);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
