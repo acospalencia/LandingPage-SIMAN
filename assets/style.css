@@ -12,7 +12,7 @@
     font-size: 1.3em !important;
 }
 
-.color-nav {
+.color-nav, .color-foot {
     background-color: rgb(168, 51, 56);
 }
 
