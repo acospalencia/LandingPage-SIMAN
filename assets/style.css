@@ -1,21 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libertinus+Math&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 @font-face {
     font-family: 'Montserrat-Alternates-Light';
     src:
         url('Montserrat-Alternates-Light.ttf.svg#Montserrat-Alternates-Light') format('svg'),
         url('Montserrat-Alternates-Light.ttf.eot'),
-        url('Montserrat-Alternates-Light.ttf.eot?#iefix') format('embedded-opentype'); 
-    
+        url('Montserrat-Alternates-Light.ttf.eot?#iefix') format('embedded-opentype');
+
+}
+
+
+body {
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 1em !important;
 }
 
 .modi-font {
-    font-family: 'Montserrat-Alternates-Light';
+    font-family: 'Montserrat-Alternates-Light' !important;
     font-size: 1.3em !important;
 }
 
-.color-nav, .color-foot {
+.color-nav,
+.color-foot {
     background-color: rgb(168, 51, 56);
 }
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.maps {
+    height: 20em;
+
 }
